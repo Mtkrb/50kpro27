@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu-up">
+        <div class="container">
+          <div class="left">
+            <ul class="ul border-r">
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-bullhorn"></i>
+                </a>
+                <a href="#" class="border-r">Sms Default welcome !</a>
+              </li>
+              <li>
+                <a href="#" class="icon-counter">
+                  <i class="fa-solid fa-gift"></i>
+                  <span class="msg">2</span>
+                </a>
+                <a href="#">Gift Vouchers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul class="ul border-r">
+              <li>
+                <span>
+                  <i class="fa-solid fa-language"></i>
+                </span>
+                <a href="#"> Language: ENG </a>
+                <a href="#" class="border-r">
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-money-check-dollar"></i></a>
+                <a href="#">Currency: USD</a>
+                <a href="#" class="border-r">
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+              </li>
+              <li><a href="#">Sign in/Register</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="menu-mid">
+        <div class="container">
+          <ul class="ul left">
+            <li class="col-md-3 col-sm-12 col-xs-12">
+              <img src="/img/logoMiu.png" alt="site-logo" />
+            </li>
+            <li class="col-md-3 col-sm-12 col-xs-12">
+              <div class="left">
+                <span class="icon">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </span>
+              </div>
+              <div class="right">
+                <p class="top bold">Mon - Sat 8h00 - 18h00</p>
+                <p class="bot">Sunday <span class="red">Closed</span></p>
+              </div>
+            </li>
+            <li class="col-md-3 col-sm-12 col-xs-12">
+              <div class="left">
+                <span class="icon">
+                  <i class="fa-solid fa-percent"></i>
+                </span>
+              </div>
+              <div class="right">
+                <p class="top bold">Every Week Sales!</p>
+                <p class="bot">
+                  Discount <span class="yellow">up to 50% off.</span>
+                </p>
+              </div>
+            </li>
+            <li class="col-md-3 col-sm-12 col-xs-12">
+              <div class="left">
+                <span class="icon">
+                  <i class="fa-solid fa-phone"></i>
+                </span>
+              </div>
+              <div class="right">
+                <p class="top bold">Have a question?</p>
+                <p class="bot">Call: <span class="blue">1900 - 819898</span></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-bottom">
+        <div class="container">
+          <div class="left">
+            <ul class="ul">
+              <li class="hover-menu link">
+                <a href="#">Home</a>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>Home 1</li>
+                    <li>Home 2</li>
+                    <li>Home 3</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="hover-menu link">
+                <a href="#">Products</a>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>Product 1</li>
+                    <li>Product 2</li>
+                    <li>Product 3</li>
+                  </ul>
+                </div>
+                <span class="icon">
+                  <i class="fa-solid fa-chevron-down"></i
+                ></span>
+              </li>
+              <li class="hover-menu link">
+                <a href="#">Sale</a>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>Sale 1</li>
+                    <li>Sale 2</li>
+                    <li>Sale 3</li>
+                  </ul>
+                </div>
+                <span class="icon"
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></span>
+              </li>
+              <li class="link"><a href="#">Blogs</a></li>
+              <li class="link"><a href="#">About us</a></li>
+            </ul>
+          </div>
+          <div class="right search-and-cart">
+            <div class="left search-con">
+              <form class="search" action="#">
+                <input
+                  class="search__form-input"
+                  type="text"
+                  placeholder="Search..."
+                />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </form>
+            </div>
+            <div class="right cart">
+              <div class="left">
+                <span class="icon">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </span>
+              </div>
+              <div class="right">
+                <p class="top bold">My Cart.</p>
+                <p class="bot">01 <span class="grey">/ $150.00</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section id="product" class="section-product">
+          <div class="block-title">
+            <h1 class="left">Featured</h1>
+            <div class="right">
+              <span>
+                <a href="#">
+                  View all products
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="block-body">
+            <div class="product-list">
+              <div class="product">
+                <div class="img">
+                  <img
+                    class="product-image"
+                    src="/img/product-image-1.jpg"
+                    alt="product-image"
+                  />
+                  <span class="img-info">New</span>
+                  <span class="quick-view">
+                    <i class="fa-solid fa-arrows-up-down-left-right"></i>
+                    Quick view
+                  </span>
+                </div>
+
+                <div class="product-body">
+                  <p class="product-name">Animal Print Sweatshirt</p>
+                  <p class="product-reviews">
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                    <span class="review-counter">6 Review(s)</span>
+                  </p>
+                  <p class="product-price">
+                    <span class="bold price">$36.00</span>
+                    <span class="crossed">$42.00</span>
+                  </p>
+                  <div class="product-icons">
+                    <span class="product-icon">
+                      <i class="fa-solid fa-bag-shopping"></i>
+                    </span>
+                    <span class="product-icon">
+                      <i class="fa-solid fa-scale-balanced"></i>
+                    </span>
+                    <span class="product-icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="product out-of-stock">
+                <div class="img">
+                  <img
+                    class="product-image"
+                    src="/img/product-image-2.jpg"
+                    alt="product-image"
+                  />
+                  <span class="quick-view">
+                    <i class="fa-solid fa-arrows-up-down-left-right"></i>
+                    Quick view
+                  </span>
+                  <span class="out-of-stock__info">
+                    <p class="bold text1">Out of stock!</p>
+                    <p class="text2">
+                      <span class="yellow">See</span> similar products
+                    </p>
+                  </span>
+                </div>
+
+                <div class="product-body">
+                  <p class="product-name">Animal Print Sweatshirt</p>
+                  <p class="product-reviews">
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                    <span class="review-counter">6 Review(s)</span>
+                  </p>
+                  <p class="product-price">
+                    <span class="bold price">$36.00</span>
+                    <span class="crossed">$42.00</span>
+                  </p>
+                  <div class="product-icons">
+                    <span class="product-icon">
+                      <i class="fa-solid fa-bag-shopping"></i>
+                    </span>
+                    <span class="product-icon">
+                      <i class="fa-solid fa-scale-balanced"></i>
+                    </span>
+                    <span class="product-icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <img
+                    class="product-image"
+                    src="/img/product-image-1.jpg"
+                    alt="product-image"
+                  />
+                  <span class="img-info">New</span>
+                  <span class="quick-view">
+                    <i class="fa-solid fa-arrows-up-down-left-right"></i>
+                    Quick view
+                  </span>
+                </div>
+
+                <div class="product-body">
+                  <p class="product-name">Animal Print Sweatshirt</p>
+                  <p class="product-reviews">
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                    <span class="review-counter">6 Review(s)</span>
+                  </p>
+                  <p class="product-price">
+                    <span class="bold price">$36.00</span>
+                    <span class="crossed">$42.00</span>
+                  </p>
+                  <div class="product-icons">
+                    <span class="product-icon">
+                      <i class="fa-solid fa-bag-shopping"></i>
+                    </span>
+                    <span class="product-icon">
+                      <i class="fa-solid fa-scale-balanced"></i>
+                    </span>
+                    <span class="product-icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <img
+                    class="product-image"
+                    src="/img/product-image-2.jpg"
+                    alt="product-image"
+                  />
+                  <span class="quick-view">
+                    <i class="fa-solid fa-arrows-up-down-left-right"></i>
+                    Quick view
+                  </span>
+                </div>
+
+                <div class="product-body">
+                  <p class="product-name">Animal Print Sweatshirt</p>
+                  <p class="product-reviews">
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                    <span class="review-counter">6 Review(s)</span>
+                  </p>
+                  <p class="product-price">
+                    <span class="bold price">$36.00</span>
+                    <span class="crossed">$42.00</span>
+                  </p>
+                  <div class="product-icons">
+                    <span class="product-icon">
+                      <i class="fa-solid fa-bag-shopping"></i>
+                    </span>
+                    <span class="product-icon">
+                      <i class="fa-solid fa-scale-balanced"></i>
+                    </span>
+                    <span class="product-icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <img
+                    class="product-image"
+                    src="/img/product-image-1.jpg"
+                    alt="product-image"
+                  />
+                  <span class="quick-view">
+                    <i class="fa-solid fa-arrows-up-down-left-right"></i>
+                    Quick view
+                  </span>
+                </div>
+
+                <div class="product-body">
+                  <p class="product-name">Animal Print Sweatshirt</p>
+                  <p class="product-reviews">
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                    <span class="review-counter">6 Review(s)</span>
+                  </p>
+                  <p class="product-price">
+                    <span class="bold price">$36.00</span>
+                    <span class="crossed">$42.00</span>
+                  </p>
+                  <div class="product-icons">
+                    <span class="product-icon">
+                      <i class="fa-solid fa-bag-shopping"></i>
+                    </span>
+                    <span class="product-icon">
+                      <i class="fa-solid fa-scale-balanced"></i>
+                    </span>
+                    <span class="product-icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="banner">
+          <div class="container">
+            <div class="banners col-12 row">
+              <img
+                src="/img/banner.png"
+                alt="banner1"
+                class="banner1 col-md-8 col-sm-8 col-xs-12"
+              />
+              <img
+                src="/img/banner2.png"
+                alt="banner2"
+                class="banner2 col-md-4 col-sm-4 col-xs-12"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <p class="footer-logo">
+              <img src="/img/logoMiu.png" alt="sitelogo" />
+            </p>
+            <p class="footer-desc">
+              Miukid is a premium eCommerce theme with advanced admin module.
+            </p>
+            <p class="footer-info">
+              <i class="fa-solid fa-phone"></i> Telephone: +84 988 992 085
+            </p>
+            <p class="footer-info">
+              <i class="fa-solid fa-envelope"></i>
+              Email: lamhvdesigner@gmail.com
+            </p>
+            <p class="footer-info">
+              <i class="fa-solid fa-clock"></i>
+              8:00 - 19:00, Monday - Saturday, Sunday - closed
+            </p>
+            <button class="buy-button">Buy this theme</button>
+          </div>
+          <div class="col-sm-2">
+            <h2>Information</h2>
+            <hr class="hr-little" />
+            <p class="footer-link"><a href="#">About us</a></p>
+            <p class="footer-link"><a href="#"> Shipping & Returns </a></p>
+            <p class="footer-link"><a href="#">Privacy notice</a></p>
+            <p class="footer-link"><a href="#">Conditions of use</a></p>
+            <p class="footer-link"><a href="#">RSS</a></p>
+          </div>
+          <div class="col-sm-2">
+            <h2>Service</h2>
+            <hr class="hr-little" />
+            <p class="footer-link"><a href="#">Online support</a></p>
+            <p class="footer-link"><a href="#">Help and FAQs </a></p>
+            <p class="footer-link"><a href="#">Call center</a></p>
+            <p class="footer-link"><a href="#">Contact us</a></p>
+            <p class="footer-link"><a href="#">Custom link</a></p>
+          </div>
+          <div class="col-sm-4">
+            <h2>Instagram</h2>
+            <hr class="hr-little" />
+            <div class="row footer-images">
+              <img class="col-sm-3" src="/img/img18.jpg" alt="img" />
+              <img class="col-sm-3" src="/img/img19.jpg" alt="img" />
+              <img class="col-sm-3" src="/img/img18.jpg" alt="img" />
+              <img class="col-sm-3" src="/img/img19.jpg" alt="img" />
+            </div>
+            <div class="row footer-images">
+              <img class="col-sm-3" src="/img/img18.jpg" alt="img" />
+              <img class="col-sm-3" src="/img/img19.jpg" alt="img" />
+              <img class="col-sm-3" src="/img/img18.jpg" alt="img" />
+              <img class="col-sm-3" src="/img/img19.jpg" alt="img" />
+            </div>
+          </div>
+        </div>
+        <div class="row footer-row-2 justify-content-between">
+          <div class="socials col-sm-6">
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-skype"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-vine"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+          <div class="links col-sm-6">
+            <a href="#"> Home </a>
+            <a href="#"> New arrivals </a>
+            <a href="#"> Site map </a>
+          </div>
+          <hr class="hr-long" />
+        </div>
+        <div
+          class="row align-items-center footer-row-3 justify-content-between"
+        >
+          <div class="col-sm-6 copyright">
+            <span>
+              Copyright © 2018
+              <span class="copyright-span">byEngoTheme.</span> All Rights
+              Reserved.
+            </span>
+          </div>
+          <div class="col-sm-6 payments">
+            <img src="/img/icon1.png" alt="payment" />
+            <img src="/img/icon1.png" alt="payment" />
+            <img src="/img/icon1.png" alt="payment" />
+            <img src="/img/icon1.png" alt="payment" />
+            <img src="/img/icon1.png" alt="payment" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/f466a08096.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

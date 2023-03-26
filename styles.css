@@ -172,7 +172,7 @@ a {
   display: none;
   position: absolute;
   background: white;
-  margin-top: 20px;
+  margin-top: 8px;
   padding: 5px;
   border: 1px solid black;
   color: black;
@@ -478,7 +478,154 @@ a {
   text-align: right;
 }
 
+.cart .icon {
+  cursor: pointer;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart .dropdown-cart {
+  background-color: white;
+  font-size: 14px;
+  left: -200px;
+  width: 300px;
+  position: absolute;
+  top: 140%;
+  padding: 20px 27px;
+  z-index: 9999;
+}
+
+.cart-2 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 34px;
+}
+
+.check-out2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.img-cart {
+  float: left;
+  margin-right: 7px;
+}
+
+.img-cart img {
+  width: 85px;
+  height: 85px;
+}
+
+.para-cart a {
+  color: #336;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: roboto;
+}
+
+.cart-2 p {
+  margin-bottom: 13px !important;
+}
+
+.cart-2 p {
+  margin-left: 0;
+  font-size: 11px;
+}
+
+.para-cart h4 {
+  font-family: arial;
+}
+
+.para-cart del {
+  color: #aeaeba;
+}
+
+.para-cart i.fa.fa-trash-o {
+  margin-left: 56%;
+  margin-top: 5%;
+}
+
+.check-out2 .total {
+  margin-bottom: 30px;
+}
+
+.check-out2 {
+  text-align: center;
+}
+
+.price-decimal {
+  margin: 0 -5px;
+}
+
+h4 {
+  color: #336;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.para-cart h4 {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+}
+
+.pro-v1 p {
+  margin-bottom: 13px !important;
+}
+
+.check-out2 p {
+  margin-right: 55%;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+
+.pro-v1 p {
+  margin-bottom: 13px !important;
+}
+.check-out2 p {
+  margin-right: 55%;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+.check-out2 p {
+  display: inline-block;
+  margin-left: 0;
+  font-size: 16px;
+}
+
+.check-out2 span {
+  color: #336;
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.check-out2 a {
+  text-transform: uppercase;
+  background: #7cd0f5;
+  padding: 14px 60px;
+  border-radius: 25px;
+  color: #fff;
+  margin-left: 8%;
+}
+
+.check a:hover {
+  box-shadow: 0 0 20px 0px #66ccff;
+}
+
 @media (max-width: 767px) {
+  .dropdown-cart {
+    width: 1095% !important;
+    left: -965% !important;
+  }
   .product {
     width: calc(50% - 30px);
   }
@@ -542,5 +689,12 @@ a {
 @media (max-width: 1024px) {
   .menu-up {
     display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .dropdown-cart {
+    width: 900% !important;
+    left: -751% !important;
   }
 }

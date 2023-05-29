@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+menu {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 body {
   font-family: "Eina", sans-serif;
   font-size: 14px;
@@ -234,7 +239,7 @@ input.search__form-input {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: #abcd02 !important;
+  background: #abcd02;
   padding: 2px 5px;
   border-radius: 6px;
   color: white;
@@ -486,6 +491,14 @@ a {
   position: relative;
 }
 
+#product .orange {
+  background-color: orange;
+}
+
+#product .orange:before {
+  border-left: 8px solid orange;
+}
+
 .cart .dropdown-cart {
   background-color: white;
   font-size: 14px;
@@ -622,6 +635,11 @@ h4 {
 }
 
 @media (max-width: 767px) {
+  .right.search-and-cart,
+  input.search__form-input {
+    width: 100%;
+  }
+
   .dropdown-cart {
     width: 1095% !important;
     left: -965% !important;
@@ -681,14 +699,32 @@ h4 {
     text-align: center;
   }
 
-  .menu-mid {
+  .menu-mid .d-none-mob {
     display: none;
+  }
+  .menu-mid {
+    font-size: 12px;
   }
 }
 
 @media (max-width: 1024px) {
-  .menu-up {
+  .menu-up .left {
     display: none;
+  }
+  .menu-up .right {
+    float: none;
+  }
+  .menu-up .right ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer {
+    font-size: 16px;
+    text-align: center;
+  }
+  footer h2 {
+    font-size: 24px;
+    margin-top: 12px;
   }
 }
 
@@ -696,5 +732,15 @@ h4 {
   .dropdown-cart {
     width: 900% !important;
     left: -751% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-up .right {
+    font-size: 12px;
+  }
+  .language-label,
+  .currency-label {
+    display: none;
   }
 }

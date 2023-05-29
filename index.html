@@ -38,14 +38,20 @@
                 <span>
                   <i class="fa-solid fa-language"></i>
                 </span>
-                <a href="#"> Language: ENG </a>
+                <a href="#">
+                  <span class="language-label">Language:</span>
+                  <span class="lang-name">ENG</span>
+                </a>
                 <a href="#" class="border-r">
                   <i class="fa-solid fa-chevron-down"></i>
                 </a>
               </li>
               <li>
                 <a href="#"><i class="fa-solid fa-money-check-dollar"></i></a>
-                <a href="#">Currency: USD</a>
+                <a href="#">
+                  <span class="currency-label">Currency:</span>
+                  <span class="currency-name">USD</span>
+                </a>
                 <a href="#" class="border-r">
                   <i class="fa-solid fa-chevron-down"></i>
                 </a>
@@ -58,10 +64,10 @@
       <div class="menu-mid">
         <div class="container">
           <ul class="ul left">
-            <li class="col-md-3 col-sm-12 col-xs-12">
+            <li class="col-md-3 col-sm-6 col-xs-6">
               <img src="/img/logoMiu.png" alt="site-logo" />
             </li>
-            <li class="col-md-3 col-sm-12 col-xs-12">
+            <li class="col-md-3 col-sm-6 col-xs-6">
               <div class="left">
                 <span class="icon">
                   <i class="fa-solid fa-calendar-days"></i>
@@ -72,7 +78,7 @@
                 <p class="bot">Sunday <span class="red">Closed</span></p>
               </div>
             </li>
-            <li class="col-md-3 col-sm-12 col-xs-12">
+            <li class="col-md-3 col-sm-12 col-xs-12 d-none-mob">
               <div class="left">
                 <span class="icon">
                   <i class="fa-solid fa-percent"></i>
@@ -85,7 +91,7 @@
                 </p>
               </div>
             </li>
-            <li class="col-md-3 col-sm-12 col-xs-12">
+            <li class="col-md-3 col-sm-12 col-xs-12 d-none-mob">
               <div class="left">
                 <span class="icon">
                   <i class="fa-solid fa-phone"></i>
@@ -190,6 +196,23 @@
     </header>
     <main class="main">
       <div class="container">
+        <menu>
+          <button type="button" class="btn btn-secondary" id="btn-1">
+            Yellow
+          </button>
+          <button type="button" class="btn btn-secondary" id="btn-2">
+            Blue
+          </button>
+          <button type="button" class="btn btn-secondary" id="btn-3">
+            Red
+          </button>
+          <button type="button" class="btn btn-secondary" id="btn-4">
+            White
+          </button>
+        </menu>
+
+        <p><input type="text" id="som" placeholder="Сом" /></p>
+        <p><input type="text" id="usd" placeholder="USD" /></p>
         <section id="product" class="section-product">
           <div class="block-title insert-list">
             <h1 class="left h1">Featured</h1>
@@ -211,7 +234,7 @@
                     src="/img/product-image-1.jpg"
                     alt="product-image"
                   />
-                  <span class="img-info">New</span>
+                  <span class="img-info orange">-50%</span>
                   <span class="quick-view">
                     <i class="fa-solid fa-arrows-up-down-left-right"></i>
                     Quick view
@@ -233,7 +256,7 @@
                   <p class="product-price">
                     <span class="bold price">
                       <span class="currency">$</span>
-                      <span class="oprice">36</span>
+                      <span class="oprice">21</span>
                       <span class="price-decimal">.</span>
                       <span class="price-fractions">00</span>
                     </span>
